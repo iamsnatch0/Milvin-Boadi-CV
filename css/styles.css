@@ -1,0 +1,353 @@
+
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+
+}
+
+h1{
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #000000 ;
+    line-height: 2;
+    
+
+}
+
+
+h2{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #000000 ;
+    padding-bottom: 10px;
+}
+
+h3{
+    font-family: 'Merriweather', serif;
+    color: #000000 ;
+
+}
+
+hr{
+    border: dotted #EAF9F5 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 50px auto;
+}
+
+a{
+    color: #11999E;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+
+ul{
+    line-height: 2; 
+}
+
+p{
+    line-height: 2; 
+}
+
+nav {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center; 
+    color: #fff;
+    padding: 0 20px;
+    height: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 10px auto;
+    padding: 0;
+}
+  
+nav li {
+    margin:0 10px;
+}
+  
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+  
+.nav-bar{
+    background-color: #333;
+}
+
+.list  {
+    text-align: right;
+    list-style-position: inside;
+}
+
+.footer-link{
+    color: #000000 ;
+    font-size: 20px;
+}
+
+.top-container {
+    background-color: #3cb0fd;
+    position: relative;
+    padding-top: 100px;   
+}
+
+.middle-container {
+    margin: 20px 0;
+}
+.intro{
+    width: 60%;
+    margin: 10px auto;
+    font-size: 1.5rem;
+}
+
+.me {
+    width: 300px;
+    margin: 10px auto;
+}
+
+.skill1-img-edu{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.skill-row-edu {
+    width: 70%;
+    margin: 10px auto 10px auto;
+    text-align: left;  
+}
+
+.book-edu{
+    width: 300px;
+    margin: 10px auto;
+    position: absolute;
+    right: 0%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+  
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.bottom-container {
+    background-color: #66bfbf;
+    padding: 50px 0 20px;  
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;  
+}
+
+
+.edu-title{
+    font-family: Heroes,Proxima Nova,Helvetica,Roboto,sans-serif;
+    font-size: 5.5rem;
+    padding: 2rem 0 1rem;
+    opacity: 1;
+    text-align: center;
+    text-shadow: 0 0 40px hsl(0deg 0% 100% / 75%);
+    margin: 10px auto;
+}
+.intro-edu{
+    width: 60%;
+    margin: 0px auto;
+    line-height: 1.5;
+}
+
+.top-container-edu {
+    background-color: #3cb0fd;
+    position: relative;
+    padding-top: 10px;  
+}
+
+.skill1-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill2-img{
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+}
+
+.intro-uni{
+    width: 30%;
+    margin: 10px auto;
+    font-size: 1.5rem;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 29;
+    -moz-border-radius: 29;
+    border-radius: 29px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #ffffff;
+    font-size: 19px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+.top-container-pro {
+    background-color: #3cb0fd;
+    position: relative;
+    padding-top: 10px; 
+}
+
+.mee {
+    width: 200px;
+    margin: 10px auto;
+}
+
+.pro-title{
+    font-family: Heroes,Proxima Nova,Helvetica,Roboto,sans-serif;
+    font-size: 5.5rem;
+   
+    text-align: center;
+    text-shadow: 0 0 40px hsl(0deg 0% 100% / 75%);
+    margin: 0px auto;
+}
+
+
+/* Design card */
+
+.main{
+  width: 900px;
+  margin: 0px auto;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btnn {
+  color: #000000;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.btnn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+  display: inline-block;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: inline-block;
+  padding: 1rem;
+  width: 400px;
+ 
+}
+
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+}
+
+.card_title {
+  color: #000000;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #000000;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+
